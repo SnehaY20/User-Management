@@ -1,0 +1,17 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "Backend for User Management app built using TypeScript, NodeJs & Firebase. ",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production node server",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "Sneha Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
